@@ -4,6 +4,8 @@ description = "Safe Rust bindings for the motionbricks C ABI (v1): model loading
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+repository.workspace = true
+readme = "README.md"
 
 [dependencies]
 libloading = { workspace = true }
