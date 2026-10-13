@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/motionbricks-mlx",
+    "crates/motionbricks-vulkan",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/neeboo/motionbricks-rs" # private repo
+
+[workspace.dependencies]
+libloading = "0.8"
+
+[profile.release]
+lto = "thin"

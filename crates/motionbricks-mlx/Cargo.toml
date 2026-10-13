@@ -1,0 +1,9 @@
+[package]
+name = "motionbricks-mlx"
+description = "Safe Rust bindings for the motionbricks C ABI (v1): model loading, styles, agent planning, batch planning"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+libloading = { workspace = true }
