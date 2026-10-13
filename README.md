@@ -87,10 +87,20 @@ runtime choices of the same library.
 
 ## Downstream integration
 
+Both crates are published on crates.io:
+
 ```toml
 [dependencies]
-motionbricks-mlx = { git = "https://github.com/neeboo/motionbricks-rs" }          # Apple hosts
-motionbricks-vulkan = { git = "https://github.com/neeboo/motionbricks-rs" }       # Vulkan hosts
+motionbricks-mlx = "0.1"       # Apple/MLX hosts
+motionbricks-vulkan = "0.1"    # Vulkan hosts
+```
+
+Or pin the repo directly:
+
+```toml
+[dependencies]
+motionbricks-mlx = { git = "https://github.com/neeboo/motionbricks-rs" }        # Apple hosts
+motionbricks-vulkan = { git = "https://github.com/neeboo/motionbricks-rs" }     # Vulkan hosts
 ```
 
 ## License
